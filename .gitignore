@@ -1,0 +1,39 @@
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets.*
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env-venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Allow sanitized cybersecurity training data
+!sample-data/authentication.log
+
+
