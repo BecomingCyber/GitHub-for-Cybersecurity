@@ -2,6 +2,8 @@
 
 **A hands-on project for learning Git, GitHub, secure collaboration, cybersecurity documentation, Python log analysis, automated testing, and continuous integration.**
 
+[![Validate Log Parser](https://github.com/BecomingCyber/GitHub-for-Cybersecurity/actions/workflows/validate-log-parser.yml/badge.svg)](https://github.com/BecomingCyber/GitHub-for-Cybersecurity/actions/workflows/validate-log-parser.yml)
+
 ## Project Overview
 
 This repository began as a Git and GitHub learning project and grew into a small defensive cybersecurity capstone. It demonstrates both the fundamentals of version control and how those practices can support cybersecurity documentation and review workflows.
@@ -100,10 +102,10 @@ The analyzer reads only the bundled fictional log. It parses valid authenticatio
 
 ## Run the Project
 
-Install Python 3.12 or another compatible Python 3 release. From PowerShell, clone the repository using its published URL. Replace `USERNAME` with the repository owner's GitHub username:
+Install Python 3.12 or another compatible Python 3 release. From PowerShell, clone the repository:
 
 ```powershell
-git clone https://github.com/USERNAME/GitHub-for-Cybersecurity.git
+git clone https://github.com/BecomingCyber/GitHub-for-Cybersecurity.git
 cd GitHub-for-Cybersecurity
 ```
 
