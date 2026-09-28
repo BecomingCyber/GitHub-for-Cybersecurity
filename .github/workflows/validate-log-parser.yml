@@ -4,11 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - "scripts/**"
-      - "sample-data/**"
-      - "tests/**"
-      - ".github/workflows/validate-log-parser.yml"
   push:
     branches:
       - main
